@@ -1,0 +1,6 @@
+@use '../base/colors';
+
+@mixin link {
+text-decoration: none;
+color: colors.$color-text;
+}
