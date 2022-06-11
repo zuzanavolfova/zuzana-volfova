@@ -2,15 +2,19 @@
 @use '../base/colors';
 
 .contact {
+    padding: 20px 0;
+    font-size: 16px;
     &__email {
         @include mixins.link;
     }
     &__media {
-        margin: 0 auto;
+        padding: 20px 0;
         display: flex;
+        justify-content: space-around;
     }
     &__logo {
         width: 60px;
-        margin: 20px;
+
+
     }
 }
