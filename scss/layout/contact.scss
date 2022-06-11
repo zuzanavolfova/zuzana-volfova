@@ -1,8 +1,0 @@
-@use '../abstracts/mixins';
-@use '../base/colors';
-
-.contact {
-    &__email {
-        @include mixins.link;
-    }
-}
