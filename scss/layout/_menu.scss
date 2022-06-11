@@ -1,0 +1,26 @@
+@use '../abstracts/mixins';
+@use '../base/colors';
+
+.menu-mobile {
+    &__list {
+        padding: 0;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    &__item{
+        list-style: none;
+        background-color: colors.$color-primary;
+        border-radius: 4px;
+        
+        & a {
+            @include mixins.link;
+            color: white;
+            display: flex;
+            padding: 10px;
+        }
+    }
+}
