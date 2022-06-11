@@ -1,0 +1,16 @@
+@use '../abstracts/mixins';
+@use '../base/colors';
+@use '../base/typography';
+
+html {
+    box-sizing: border-box;
+}
+  
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 20px;
+    font-family: base.$font-primary;
+}
