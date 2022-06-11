@@ -8,6 +8,7 @@ html {
 
 body {
   padding: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 .contact__email {
@@ -18,5 +19,7 @@ body {
 .header__title {
   color: #f4a666;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
