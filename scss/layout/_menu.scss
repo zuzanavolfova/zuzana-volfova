@@ -2,6 +2,9 @@
 @use '../base/colors';
 
 .menu-mobile {
+    position: sticky;
+    bottom: 0;
+
     &__list {
         padding: 10px;
         color: white;

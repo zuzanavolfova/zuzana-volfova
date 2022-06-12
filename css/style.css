@@ -38,6 +38,11 @@ body {
   padding: 20px;
 }
 
+.menu-mobile {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}
 .menu-mobile__list {
   padding: 10px;
   color: white;
