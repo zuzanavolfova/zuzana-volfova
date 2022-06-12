@@ -9,5 +9,8 @@
         font-weight: 400;
         margin: 0 auto;
         padding: 20px;
+        @include mixins.desktop {
+            grid-area: logo;
+        }
     }
 }

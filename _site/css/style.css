@@ -20,13 +20,24 @@ body {
   text-decoration: none;
   color: rgb(60, 60, 60);
 }
-.contact__media {
+
+.media {
   padding: 20px 0;
   display: flex;
   justify-content: space-around;
 }
-.contact__logo {
+@media screen and (min-width: 900px) {
+  .media {
+    grid-area: media;
+  }
+}
+.media__logo {
   width: 60px;
+}
+@media screen and (min-width: 900px) {
+  .media__logo {
+    width: 40px;
+  }
 }
 
 .header__title {
@@ -36,6 +47,11 @@ body {
   font-weight: 400;
   margin: 0 auto;
   padding: 20px;
+}
+@media screen and (min-width: 900px) {
+  .header__title {
+    grid-area: logo;
+  }
 }
 
 .menu-mobile {

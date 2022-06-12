@@ -7,14 +7,18 @@
     &__email {
         @include mixins.link;
     }
-    &__media {
+}
+.media {
         padding: 20px 0;
         display: flex;
         justify-content: space-around;
-    }
+        @include mixins.desktop {
+            grid-area: media;
+        }
     &__logo {
         width: 60px;
-
-
+        @include mixins.desktop {
+            width: 40px;
+        }
     }
 }
