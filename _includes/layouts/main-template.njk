@@ -15,11 +15,13 @@
 
 </head>
 <body>
-    {% include 'partials/header.njk' %}
+    <kontejner>
+        {% include 'partials/header.njk' %}
     
-    {{content | safe }} 
+        {{content | safe }} 
     
-    {% include 'partials/contact.njk' %}
-    {% include 'partials/menu.njk' %}
+        {% include 'partials/contact.njk' %}
+        {% include 'partials/menu.njk' %}
+    </kontejner>
 </body>
 </html>
