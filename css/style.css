@@ -20,6 +20,13 @@ body {
   text-decoration: none;
   color: rgb(60, 60, 60);
 }
+@media screen and (min-width: 900px) {
+  .contact {
+    grid-area: footer;
+    font-weight: 300;
+    border-top: 1px solid rgb(60, 60, 60);
+  }
+}
 
 .media {
   padding: 20px 0;
@@ -49,7 +56,7 @@ body {
   padding: 20px;
 }
 @media screen and (min-width: 900px) {
-  .header__title {
+  .header {
     grid-area: logo;
   }
 }
@@ -58,6 +65,11 @@ body {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
+}
+@media screen and (min-width: 900px) {
+  .menu-mobile {
+    display: none;
+  }
 }
 .menu-mobile__list {
   padding: 20px 10px;
@@ -82,4 +94,13 @@ body {
   font-weight: 500;
   display: flex;
   padding: 10px;
+}
+
+@media screen and (min-width: 900px) {
+  .main-page {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: "logo   logo      logo         media" "menu   uxdesign  programovani grafika" "footer footer    footer       footer";
+  }
 }/*# sourceMappingURL=style.css.map */
