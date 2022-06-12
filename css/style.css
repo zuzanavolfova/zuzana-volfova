@@ -7,12 +7,13 @@ html {
 }
 
 body {
-  padding: 20px;
+  padding: 0;
+  margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
 .contact {
-  padding: 20px 0;
+  padding: 20px;
   font-size: 16px;
 }
 .contact__email {
@@ -34,26 +35,30 @@ body {
   font-size: 28px;
   font-weight: 400;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .menu-mobile__list {
-  padding: 0;
+  padding: 10px;
   color: white;
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  justify-content: space-around;
   font-size: 14px;
   font-weight: 500;
+  background-color: #f4a666;
 }
 .menu-mobile__item {
   list-style: none;
-  background-color: #f4a666;
+  background-color: white;
   border-radius: 4px;
+  border: 1px solid #f4a666;
 }
 .menu-mobile__item a {
   text-decoration: none;
   color: rgb(60, 60, 60);
-  color: white;
+  color: #f4a666;
+  font-weight: 500;
   display: flex;
   padding: 10px;
 }/*# sourceMappingURL=style.css.map */

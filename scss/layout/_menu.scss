@@ -3,22 +3,24 @@
 
 .menu-mobile {
     &__list {
-        padding: 0;
+        padding: 10px;
         color: white;
         display: flex;
         flex-wrap: wrap;
-        gap: 5px;
+        justify-content: space-around;
         font-size: 14px;
         font-weight: 500;
+        background-color: colors.$color-primary;
     }
     &__item{
         list-style: none;
-        background-color: colors.$color-primary;
+        background-color: white;
         border-radius: 4px;
-        
+        border: 1px solid colors.$color-primary;
         & a {
             @include mixins.link;
-            color: white;
+            color:  colors.$color-primary;
+            font-weight: 500;
             display: flex;
             padding: 10px;
         }

@@ -2,7 +2,7 @@
 @use '../base/colors';
 
 .contact {
-    padding: 20px 0;
+    @include mixins.padding;
     font-size: 16px;
     &__email {
         @include mixins.link;
