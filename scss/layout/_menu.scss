@@ -21,6 +21,8 @@
         @include mixins.desktop {
             background-color:white;
             display: block;
+            margin: 0;
+            padding: 0 40px;
         }
     }
     &__item{
@@ -30,7 +32,7 @@
         border: 1px solid colors.$color-primary;
         @include mixins.desktop {
             border: none;
-            padding: 10px 0 5px 20px;
+            padding: 5px 0;
         }
         & a {
             @include mixins.link;

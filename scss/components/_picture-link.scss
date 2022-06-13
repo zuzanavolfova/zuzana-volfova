@@ -3,7 +3,7 @@
 
 .navigation {
     display: none;
-    padding: 40px;
+    padding: 0 40px;
     
     @include mixins.desktop {
         grid-area: navigation;

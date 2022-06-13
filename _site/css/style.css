@@ -14,7 +14,7 @@ body {
 
 .navigation {
   display: none;
-  padding: 40px;
+  padding: 0 40px;
 }
 @media screen and (min-width: 900px) {
   .navigation {
@@ -70,6 +70,7 @@ body {
     grid-area: footer;
     font-weight: 300;
     border-top: 1px solid rgb(60, 60, 60);
+    padding: 40px;
   }
 }
 
@@ -137,6 +138,8 @@ body {
   .menu__list {
     background-color: white;
     display: block;
+    margin: 0;
+    padding: 0 40px;
   }
 }
 .menu__item {
@@ -148,7 +151,7 @@ body {
 @media screen and (min-width: 900px) {
   .menu__item {
     border: none;
-    padding: 10px 0 5px 20px;
+    padding: 5px 0;
   }
 }
 .menu__item a {
