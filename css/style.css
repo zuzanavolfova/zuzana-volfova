@@ -97,10 +97,10 @@ body {
 .header__title {
   color: #f4a666;
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 400;
   margin: 0 auto;
-  padding: 20px;
+  margin: 40px;
 }
 @media screen and (min-width: 900px) {
   .header {
