@@ -4,10 +4,11 @@
 .navigation {
     display: none;
     padding: 0 40px;
-    
+
     @include mixins.desktop {
         grid-area: navigation;
         display: flex;
+        flex-wrap: wrap;
         gap: 40px;
         justify-content: space-around;
         // flex-wrap: wrap;
