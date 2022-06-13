@@ -19,11 +19,13 @@
         justify-content: space-around;
         @include mixins.desktop {
             grid-area: media;
+            justify-content: flex-end;
         }
     &__logo {
         width: 60px;
         @include mixins.desktop {
             width: 40px;
+            margin: 20px;
         }
     }
 }
