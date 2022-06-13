@@ -1,2 +1,52 @@
 @use '../abstracts/mixins';
 @use '../base/colors';
+
+.navigation {
+    display: none;
+    padding: 40px;
+    
+    @include mixins.desktop {
+        grid-area: navigation;
+        display: flex;
+        gap: 40px;
+        justify-content: space-around;
+        // flex-wrap: wrap;
+        &__link {
+            border: 1px solid darkgrey;
+            flex-basis: calc(100%/3 - 40px);
+            height: 260px;
+            @include mixins.link;
+            overflow: hidden;
+            position: relative;
+        }
+        &__description {
+            font-size: 20px;
+            color: white;
+            background-color: rgba($color: #000000, $alpha: 0.5) ;
+            position: absolute;
+            width: 100%;
+            padding: 40px;
+            top: 100%;
+            text-align: center;
+            transition: transform 0.5s;
+        }
+    }
+}
+
+.ux-design__link {
+    &:hover .ux-design__description {
+        transform: translateY(-100%);
+    }
+}
+
+.coding__link {
+    &:hover .coding__description {
+        transform: translateY(-100%);
+    }
+}
+
+.graphic__link {
+    &:hover .graphic__description {
+        transform: translateY(-100%);
+    }
+}

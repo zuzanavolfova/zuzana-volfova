@@ -12,6 +12,51 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.navigation {
+  display: none;
+  padding: 40px;
+}
+@media screen and (min-width: 900px) {
+  .navigation {
+    grid-area: navigation;
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+  }
+  .navigation__link {
+    border: 1px solid darkgrey;
+    flex-basis: calc(33.3333333333% - 40px);
+    height: 260px;
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+    overflow: hidden;
+    position: relative;
+  }
+  .navigation__description {
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    padding: 40px;
+    top: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+  }
+}
+
+.ux-design__link:hover .ux-design__description {
+  transform: translateY(-100%);
+}
+
+.coding__link:hover .coding__description {
+  transform: translateY(-100%);
+}
+
+.graphic__link:hover .graphic__description {
+  transform: translateY(-100%);
+}
+
 .contact {
   padding: 20px;
   font-size: 16px;
@@ -126,6 +171,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 3fr 3fr 3fr;
     grid-template-rows: 1fr 3fr 1fr;
-    grid-template-areas: "logo   logo      logo         media" "menu   uxdesign  programovani grafika" "footer footer    footer       footer";
+    grid-template-areas: "logo   logo      logo         media" "menu   navigation navigation navigation" "footer footer    footer       footer";
   }
 }/*# sourceMappingURL=style.css.map */
