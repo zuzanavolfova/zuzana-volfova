@@ -1,11 +1,12 @@
 @use '../abstracts/mixins';
 @use '../base/colors';
 
-.menu-mobile {
+.menu {
     position: sticky;
     bottom: 0;
     @include mixins.desktop {
-        display: none;
+        position: static;
+        grid-area: menu;
     }
 
     &__list {
@@ -17,18 +18,30 @@
         font-size: 16px;
         font-weight: 500;
         background-color: colors.$color-primary;
+        @include mixins.desktop {
+            background-color:white;
+            display: block;
+        }
     }
     &__item{
         list-style: none;
         background-color: white;
         border-radius: 4px;
         border: 1px solid colors.$color-primary;
+        @include mixins.desktop {
+            border: none;
+            padding: 10px 0 5px 20px;
+        }
         & a {
             @include mixins.link;
             color:  colors.$color-primary;
             font-weight: 500;
             display: flex;
             padding: 10px;
+            @include mixins.desktop {
+                color: colors.$color-text;
+                padding: 0;
+            }
         }
     }
 }

@@ -67,17 +67,18 @@ body {
   color: rgb(60, 60, 60);
 }
 
-.menu-mobile {
+.menu {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
 }
 @media screen and (min-width: 900px) {
-  .menu-mobile {
-    display: none;
+  .menu {
+    position: static;
+    grid-area: menu;
   }
 }
-.menu-mobile__list {
+.menu__list {
   padding: 20px 10px;
   color: white;
   display: flex;
@@ -87,19 +88,37 @@ body {
   font-weight: 500;
   background-color: #f4a666;
 }
-.menu-mobile__item {
+@media screen and (min-width: 900px) {
+  .menu__list {
+    background-color: white;
+    display: block;
+  }
+}
+.menu__item {
   list-style: none;
   background-color: white;
   border-radius: 4px;
   border: 1px solid #f4a666;
 }
-.menu-mobile__item a {
+@media screen and (min-width: 900px) {
+  .menu__item {
+    border: none;
+    padding: 10px 0 5px 20px;
+  }
+}
+.menu__item a {
   text-decoration: none;
   color: rgb(60, 60, 60);
   color: #f4a666;
   font-weight: 500;
   display: flex;
   padding: 10px;
+}
+@media screen and (min-width: 900px) {
+  .menu__item a {
+    color: rgb(60, 60, 60);
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 900px) {
