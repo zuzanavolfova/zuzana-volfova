@@ -25,7 +25,7 @@
         width: 60px;
         @include mixins.desktop {
             width: 40px;
-            margin: 20px;
+            margin: 0 20px;
         }
     }
 }
