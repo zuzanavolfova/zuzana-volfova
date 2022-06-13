@@ -60,6 +60,10 @@ body {
     grid-area: logo;
   }
 }
+.header__home {
+  text-decoration: none;
+  color: rgb(60, 60, 60);
+}
 
 .menu-mobile {
   position: -webkit-sticky;

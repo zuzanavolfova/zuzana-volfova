@@ -13,4 +13,7 @@
     @include mixins.desktop {
         grid-area: logo;
     }
+    &__home {
+        @include mixins.link
+    }
 }
