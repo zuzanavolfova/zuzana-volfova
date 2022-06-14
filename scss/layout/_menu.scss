@@ -31,8 +31,10 @@
         border-radius: 4px;
         border: 1px solid colors.$color-primary;
         @include mixins.desktop {
+            margin: 5px 0;
             border: none;
             padding: 5px 0;
+           
         }
         & a {
             @include mixins.link;
@@ -43,7 +45,14 @@
             @include mixins.desktop {
                 color: colors.$color-text;
                 padding: 0;
+                
             }
         }
     }
+    &__item--active .menu__text {
+        border-bottom: 3px dotted colors.$color-primary;
+    }
+    &__text:hover {
+            border-bottom: 3px dotted colors.$color-primary; 
+        }
 }
