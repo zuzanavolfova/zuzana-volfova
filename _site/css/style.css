@@ -21,8 +21,7 @@ body {
     grid-area: navigation;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .navigation__link {
     border: 1px solid darkgrey;
@@ -34,9 +33,9 @@ body {
     position: relative;
   }
   .navigation__description {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     width: 100%;
     padding: 40px;
