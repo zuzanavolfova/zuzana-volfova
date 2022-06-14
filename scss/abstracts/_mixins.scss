@@ -4,6 +4,13 @@
 text-decoration: none;
 color: colors.$color-text;
 }
+
+@mixin background-picture {
+    background-color: white;
+    background-size: cover;
+    background-position: top center;
+}
+
 @mixin padding {
     padding: 20px;
 }
@@ -19,3 +26,4 @@ color: colors.$color-text;
         @content;
     }
 }
+

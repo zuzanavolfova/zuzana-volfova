@@ -180,6 +180,7 @@ body {
   background-image: url(/images/navigation/ux-design.png);
   background-color: white;
   background-size: cover;
+  background-position: top center;
 }
 .ux-design__link:hover .ux-design__description {
   transform: translateY(-100%);
@@ -189,6 +190,7 @@ body {
   background-image: url(/images/navigation/programovani.png);
   background-color: white;
   background-size: cover;
+  background-position: top center;
 }
 .coding__link:hover .coding__description {
   transform: translateY(-100%);
@@ -198,6 +200,7 @@ body {
   background-image: url(/images/navigation/poukazka.jpg);
   background-color: white;
   background-size: cover;
+  background-position: top center;
 }
 .graphic__link:hover .graphic__description {
   transform: translateY(-100%);
