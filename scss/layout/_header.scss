@@ -15,6 +15,7 @@
             text-align: left;
             font-size: 46px;
             font-weight: 300;
+            display: inline-block;
         }
     }
     @include mixins.desktop {
