@@ -8,7 +8,6 @@
         position: static;
         grid-area: menu;
     }
-
     &__list {
         padding: 20px 10px;
         color: white;
@@ -45,7 +44,6 @@
             @include mixins.desktop {
                 color: colors.$color-text;
                 padding: 0;
-                
             }
         }
     }

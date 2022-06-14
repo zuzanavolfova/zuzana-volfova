@@ -99,6 +99,8 @@ body {
   .header__title {
     padding: 60px 40px;
     text-align: left;
+    font-size: 46px;
+    font-weight: 300;
   }
 }
 @media screen and (min-width: 900px) {

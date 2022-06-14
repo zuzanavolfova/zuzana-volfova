@@ -13,6 +13,8 @@
         @include mixins.desktop {
             padding: 60px 40px;
             text-align: left;
+            font-size: 46px;
+            font-weight: 300;
         }
     }
     @include mixins.desktop {
