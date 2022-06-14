@@ -1,0 +1,20 @@
+{
+    "coding": [
+        {
+        "category": "coding",
+        "name": "Tvoření pro motýlky",
+        "link": "https://tvoreni-pro-motylky.netlify.app/",
+        "description": "HTML, CSS, BEM, SASS, 11ty",
+        "image": "/navigation/motyli.png"
+    }
+    ],
+    "javaScript": [
+        {
+        "category": "javaScript",
+        "name": "Kvíz",
+        "link": "https://zuzanavolfova.github.io/projekt2-superkviz/",
+        "description": "JavaScript",
+        "image":"/navigation/programovani.png"
+    }
+    ]
+}
