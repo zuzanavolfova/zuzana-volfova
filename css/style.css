@@ -46,18 +46,6 @@ body {
   }
 }
 
-.ux-design__link:hover .ux-design__description {
-  transform: translateY(-100%);
-}
-
-.coding__link:hover .coding__description {
-  transform: translateY(-100%);
-}
-
-.graphic__link:hover .graphic__description {
-  transform: translateY(-100%);
-}
-
 .contact {
   text-align: center;
   padding: 20px;
@@ -187,4 +175,31 @@ body {
     grid-template-rows: auto auto auto;
     grid-template-areas: "logo   logo      logo         media" "menu   navigation navigation navigation" "footer footer    footer       footer";
   }
+}
+
+.ux-design__link {
+  background-image: url(/images/navigation/ux-design.png);
+  background-color: white;
+  background-size: cover;
+}
+.ux-design__link:hover .ux-design__description {
+  transform: translateY(-100%);
+}
+
+.coding__link {
+  background-image: url(/images/navigation/programovani.png);
+  background-color: white;
+  background-size: cover;
+}
+.coding__link:hover .coding__description {
+  transform: translateY(-100%);
+}
+
+.graphic__link {
+  background-image: url(/images/navigation/poukazka.jpg);
+  background-color: white;
+  background-size: cover;
+}
+.graphic__link:hover .graphic__description {
+  transform: translateY(-100%);
 }/*# sourceMappingURL=style.css.map */

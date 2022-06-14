@@ -1,0 +1,29 @@
+@use '../abstracts/mixins';
+@use '../base/colors';
+
+.ux-design__link {
+    background-image: url(/images/navigation/ux-design.png);
+    background-color: white;
+    background-size: cover;
+    &:hover .ux-design__description {
+        transform: translateY(-100%);
+    }
+}
+
+.coding__link {
+    background-image: url(/images/navigation/programovani.png);
+    background-color: white;
+    background-size: cover;
+    &:hover .coding__description {
+        transform: translateY(-100%);
+    }
+}
+
+.graphic__link {
+    background-image: url(/images/navigation/poukazka.jpg);
+    background-color: white;
+    background-size: cover;
+    &:hover .graphic__description {
+        transform: translateY(-100%);
+    }
+}
