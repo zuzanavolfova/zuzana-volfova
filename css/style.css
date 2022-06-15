@@ -170,11 +170,15 @@ body {
     padding: 0;
   }
 }
-.menu__item--active .menu__text {
-  border-bottom: 3px dotted #f4a666;
+@media screen and (min-width: 900px) {
+  .menu__item--active .menu__text {
+    border-bottom: 3px dotted #f4a666;
+  }
 }
-.menu__text:hover {
-  border-bottom: 3px dotted #f4a666;
+@media screen and (min-width: 900px) {
+  .menu__text:hover {
+    border-bottom: 3px dotted #f4a666;
+  }
 }
 
 @media screen and (min-width: 900px) {

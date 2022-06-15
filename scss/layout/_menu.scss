@@ -48,9 +48,13 @@
         }
     }
     &__item--active .menu__text {
+        @include mixins.desktop {
         border-bottom: 3px dotted colors.$color-primary;
+        }
     }
     &__text:hover {
+        @include mixins.desktop {
             border-bottom: 3px dotted colors.$color-primary; 
         }
+    }
 }

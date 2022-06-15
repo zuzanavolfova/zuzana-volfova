@@ -4,6 +4,7 @@
 .ux-design__link {
     background-image: url(/images/navigation/ux-design.png);
    @include mixins.background-picture;
+    
     &:hover .ux-design__description {
         transform: translateY(-100%);
     }
