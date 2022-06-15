@@ -4,6 +4,7 @@
         "category": "coding",
         "name": "Tvoření pro motýlky",
         "link": "https://tvoreni-pro-motylky.netlify.app/",
+        "github":"",
         "description": "HTML, CSS, BEM, SASS, 11ty",
         "image": "/navigation/motyli.png"
     }
@@ -13,6 +14,7 @@
         "category": "javaScript",
         "name": "Kvíz",
         "link": "https://zuzanavolfova.github.io/projekt2-superkviz/",
+        "github":"",
         "description": "JavaScript",
         "image":"/navigation/programovani.png"
     }
