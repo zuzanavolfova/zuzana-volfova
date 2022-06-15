@@ -7,7 +7,6 @@ title: Programování
 
     <section class="presentation__section">
         {% for itemCoding in list.coding %}
-       
             <a class="presentation__link" href="{{itemCoding.link}}/">
                 <img src="/images{{itemCoding.image}}">
                 <div class="presentation__description"> 
@@ -15,14 +14,12 @@ title: Programování
                     <p>{{itemCoding.description}}</p>
                 </div>
             </a>
-      
         {% endfor %}  
     </section>
 
     <h2 class="presentation__title presentation__JavaScript">JavaScript</h2>
     <section class="presentation__section">
         {% for itemJavaScript in list.javaScript %}
-        <div class="presentation__item">
             <a class="presentation__link" href="{{itemJavaScript.link}}/">
                 <img src="/images{{itemJavaScript.image}}">
                 <div class="presentation__description"> 
@@ -30,7 +27,6 @@ title: Programování
                     <p>{{itemJavaScript.description}}</p>
                 </div>
             </a>
-        </div>
         {% endfor %}  
     </section>
 </div>

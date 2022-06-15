@@ -14,20 +14,24 @@
         }
     }
     &__section {
-        @include mixins.desktop{
+        @include mixins.tablet{
            display: flex;
            flex-wrap: wrap;
            gap: 60px;
        }
     }
-       &__link {
+    &__link {
         @include mixins.link;
         & img {
             width: 100%;
         }
+        @include mixins.tablet{
+            flex-basis: calc(100%/2 - 60px);
+            // background-color: #F5F5F5;
+        }
         @include mixins.desktop{
             flex-basis: calc(100%/3 - 60px);
             // background-color: #F5F5F5;
-       }
+        }
     }
    }

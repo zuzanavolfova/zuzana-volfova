@@ -231,7 +231,7 @@ body {
     text-align: center;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 640px) {
   .presentation__section {
     display: flex;
     flex-wrap: wrap;
@@ -244,6 +244,11 @@ body {
 }
 .presentation__link img {
   width: 100%;
+}
+@media screen and (min-width: 640px) {
+  .presentation__link {
+    flex-basis: calc(50% - 60px);
+  }
 }
 @media screen and (min-width: 900px) {
   .presentation__link {
