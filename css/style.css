@@ -186,15 +186,6 @@ body {
   }
 }
 
-@media screen and (min-width: 900px) {
-  .presentation {
-    grid-area: navigation;
-  }
-  .presentation__1, .presentation__2 {
-    display: flex;
-  }
-}
-
 .ux-design__link {
   background-image: url(/images/navigation/ux-design.png);
   background-color: white;
