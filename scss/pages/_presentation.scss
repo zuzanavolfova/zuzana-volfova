@@ -1,0 +1,33 @@
+@use '../abstracts/mixins';
+@use '../base/colors';
+
+.presentation {
+    @include mixins.padding;
+    @include mixins.desktop{
+       grid-area: navigation;
+    }
+     &__title {
+        @include mixins.desktop{
+            color: colors.$color-text;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+    &__section {
+        @include mixins.desktop{
+           display: flex;
+           flex-wrap: wrap;
+           gap: 60px;
+       }
+    }
+       &__link {
+        @include mixins.link;
+        & img {
+            width: 100%;
+        }
+        @include mixins.desktop{
+            flex-basis: calc(100%/3 - 60px);
+            // background-color: #F5F5F5;
+       }
+    }
+   }

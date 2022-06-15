@@ -1,34 +1,36 @@
-<!-- ---
+---
 layout: layouts/main-template.njk
 title: Programování
 ---
-<h2 class="title-page">HTML CSS</h2>
+<div class="presentation">
+    <h2 class="presentation__title presentation__HTML">HTML CSS</h2>
 
-<section class="list">
-    {% for itemCoding in list.coding %}
-    <div class="list__item">
-        <a class="list__link navigation__link" href="{{itemCoding.link}}/">
-            <img src="/images{{itemCoding.image}}">
-            <div class="list__description"> 
-                <p>{{itemCoding.name}}</p>
-                <p>{{itemCoding.description}}</p>
-            </div>
-        </a>
-    </div>
-    {% endfor %}  
-</section>
+    <section class="presentation__section">
+        {% for itemCoding in list.coding %}
+       
+            <a class="presentation__link" href="{{itemCoding.link}}/">
+                <img src="/images{{itemCoding.image}}">
+                <div class="presentation__description"> 
+                    <h3>{{itemCoding.name}}</h3>
+                    <p>{{itemCoding.description}}</p>
+                </div>
+            </a>
+      
+        {% endfor %}  
+    </section>
 
-<h2 class="title-page">JavaScript</h2>
-<section class="list">
-    {% for itemJavaScript in list.javaScript %}
-    <div class="list__item">
-        <a class="list__link navigation__link" href="{{itemJavaScript.link}}/">
-            <img src="/images{{itemJavaScript.image}}">
-            <div class="list__description"> 
-                <p>{{itemJavaScript.name}}</p>
-                <p>{{itemJavaScript.description}}</p>
-            </div>
-        </a>
-    </div>
-    {% endfor %}  
-</section> -->
+    <h2 class="presentation__title presentation__JavaScript">JavaScript</h2>
+    <section class="presentation__section">
+        {% for itemJavaScript in list.javaScript %}
+        <div class="presentation__item">
+            <a class="presentation__link" href="{{itemJavaScript.link}}/">
+                <img src="/images{{itemJavaScript.image}}">
+                <div class="presentation__description"> 
+                    <h3>{{itemJavaScript.name}}</h3>
+                    <p>{{itemJavaScript.description}}</p>
+                </div>
+            </a>
+        </div>
+        {% endfor %}  
+    </section>
+</div>

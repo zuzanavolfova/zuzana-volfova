@@ -186,6 +186,15 @@ body {
   }
 }
 
+@media screen and (min-width: 900px) {
+  .presentation {
+    grid-area: navigation;
+  }
+  .presentation__1, .presentation__2 {
+    display: flex;
+  }
+}
+
 .ux-design__link {
   background-image: url(/images/navigation/ux-design.png);
   background-color: white;
@@ -214,4 +223,39 @@ body {
 }
 .graphic__link:hover .graphic__description {
   transform: translateY(-100%);
+}
+
+.presentation {
+  padding: 20px;
+}
+@media screen and (min-width: 900px) {
+  .presentation {
+    grid-area: navigation;
+  }
+}
+@media screen and (min-width: 900px) {
+  .presentation__title {
+    color: rgb(60, 60, 60);
+    padding: 20px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 900px) {
+  .presentation__section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+}
+.presentation__link {
+  text-decoration: none;
+  color: rgb(60, 60, 60);
+}
+.presentation__link img {
+  width: 100%;
+}
+@media screen and (min-width: 900px) {
+  .presentation__link {
+    flex-basis: calc(33.3333333333% - 60px);
+  }
 }/*# sourceMappingURL=style.css.map */
