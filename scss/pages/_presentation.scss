@@ -2,14 +2,14 @@
 @use '../base/colors';
 
 .presentation {
-    @include mixins.padding;
+    padding: 0 20px;
     @include mixins.desktop{
        grid-area: navigation;
     }
      &__title {
         @include mixins.desktop{
             color: colors.$color-text;
-            padding: 20px;
+            padding: 20px 0 0 0;
             text-align: center;
         }
     }
@@ -34,4 +34,12 @@
             // background-color: #F5F5F5;
         }
     }
-   }
+  &__github {
+    @include mixins.link;
+    padding: 8px 12px;
+    margin: 10px 0;
+    border: 1px solid colors.$color-primary;
+    background-color: colors.$color-primary;
+    border-radius: 6px ;
+  }
+}

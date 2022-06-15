@@ -221,7 +221,7 @@ body {
 }
 
 .presentation {
-  padding: 20px;
+  padding: 0 20px;
 }
 @media screen and (min-width: 900px) {
   .presentation {
@@ -231,7 +231,7 @@ body {
 @media screen and (min-width: 900px) {
   .presentation__title {
     color: rgb(60, 60, 60);
-    padding: 20px;
+    padding: 20px 0 0 0;
     text-align: center;
   }
 }
@@ -258,4 +258,13 @@ body {
   .presentation__link {
     flex-basis: calc(33.3333333333% - 60px);
   }
+}
+.presentation__github {
+  text-decoration: none;
+  color: rgb(60, 60, 60);
+  padding: 8px 12px;
+  margin: 10px 0;
+  border: 1px solid #f4a666;
+  background-color: #f4a666;
+  border-radius: 6px;
 }/*# sourceMappingURL=style.css.map */
