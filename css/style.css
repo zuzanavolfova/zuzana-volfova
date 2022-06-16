@@ -204,10 +204,11 @@ body {
 
 .mobile {
   text-align: center;
-  padding: 20px;
   font-size: 20px;
   font-weight: 300;
   line-height: 2;
+  background-color: rgb(240, 240, 240);
+  margin-bottom: 10px;
 }
 @media screen and (min-width: 900px) {
   .mobile {

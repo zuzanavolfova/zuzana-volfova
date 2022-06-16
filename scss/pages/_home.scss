@@ -3,10 +3,11 @@
 
 .mobile {
     text-align: center;
-    @include mixins.padding;
     font-size: 20px;
     font-weight: 300;
     line-height: 2;
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 10px;
     @include mixins.desktop {
         display: none;
     }
