@@ -60,6 +60,21 @@
             "description": "Motýl",
             "image":"motyl.png"
             },
+              {
+                "category": "vector",
+                "description": "Sněhulák",
+                "image":"Snowman.png"
+            },
+            {
+                "category": "vector",
+                "description": "Klaun",
+                "image":"klaun.png"
+            },
+            {
+                "category": "vector",
+                "description": "Stromeček",
+                "image":"Stromecek1.png"
+            },
             {
                 "category": "vector",
                 "description": "Ikony",
@@ -69,18 +84,7 @@
                 "category": "vector",
                 "description": "Ikony",
                 "image":"icons.png"
-            },
-            {
-                "category": "vector",
-                "description": "Klaun",
-                "image":"klaun.png"
-            },
-            {
-                "category": "vector",
-                "description": "Sněhulák",
-                "image":"Snowman.png"
             }
-
     ],
     "graphicPromotional":
     [
