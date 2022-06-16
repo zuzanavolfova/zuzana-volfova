@@ -52,5 +52,26 @@
             "description": "JavaScript, GitHub",
             "image":"/navigation/recepty.png"
         }
+    ],
+    "graphicVector": [
+        {
+            "category": "graphic-img",
+            "name": "Motýl",
+            "link": "",
+            "github":"",
+            "description": "Motýl",
+            "image":"/graphic/motyl.png"
+            }
+    ],
+    "graphicPromotional":
+    [
+        {
+            "category": "graphic-promotional",
+            "name": "Hanseeno",
+            "link": "",
+            "github":"",
+            "description": "Poukázka Hanseeno",
+            "image":"poukazka.jpg"
+        }
     ]
 }
