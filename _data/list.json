@@ -55,21 +55,38 @@
     ],
     "graphicVector": [
         {
-            "category": "graphic-img",
+            "category": "vector",
             "name": "Motýl",
-            "link": "",
-            "github":"",
             "description": "Motýl",
-            "image":"/graphic/motyl.png"
+            "image":"motyl.png"
+            },
+            {
+                "category": "vector",
+                "description": "Ikony",
+                "image":"ikony.jpg"
+            },
+            {
+                "category": "vector",
+                "description": "Ikony",
+                "image":"icons.png"
+            },
+            {
+                "category": "vector",
+                "description": "Klaun",
+                "image":"klaun.png"
+            },
+            {
+                "category": "vector",
+                "description": "Sněhulák",
+                "image":"Snowman.png"
             }
+
     ],
     "graphicPromotional":
     [
         {
             "category": "graphic-promotional",
             "name": "Hanseeno",
-            "link": "",
-            "github":"",
             "description": "Poukázka Hanseeno",
             "image":"poukazka.jpg"
         }
