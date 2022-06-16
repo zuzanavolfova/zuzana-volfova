@@ -1,22 +1,56 @@
 {
+    "template": [
+        {
+        "category": "",
+        "name": "",
+        "link": "",
+        "github":"",
+        "description": "",
+        "image":"/navigation/"
+        }
+    ],
     "coding": [
         {
-        "category": "coding",
-        "name": "Tvoření pro motýlky",
-        "link": "https://tvoreni-pro-motylky.netlify.app/",
-        "github":"",
-        "description": "HTML, CSS, BEM, SASS, 11ty",
-        "image": "/navigation/motyli.png"
-    }
+            "category": "coding",
+            "name": "Tvoření pro motýlky",
+            "link": "https://tvoreni-pro-motylky.netlify.app/",
+            "github":"https://github.com/zuzanavolfova/Zaverecny-projekt-koderka",
+            "description": "HTML, CSS, BEM, SASS, 11ty, GitHub",
+            "image": "/navigation/motyli.png"
+        },
+        {
+            "category": "coding",
+            "name": "Zuzana Volfová",
+            "link": "https://zuzana-volfova.netlify.app/",
+            "github":"https://github.com/zuzanavolfova/zuzana-volfova",
+            "description": "HTML, CSS, BEM, SASS, 11ty, GitHub",
+            "image":"/navigation/zuzana-volfova-mobile.jpg"
+        }
     ],
     "javaScript": [
         {
-        "category": "javaScript",
-        "name": "Kvíz",
-        "link": "https://zuzanavolfova.github.io/projekt2-superkviz/",
-        "github":"",
-        "description": "JavaScript",
-        "image":"/navigation/programovani.png"
-    }
+            "category": "javaScript",
+            "name": "Kvíz",
+            "link": "https://zuzanavolfova.github.io/projekt2-superkviz/",
+            "github":"https://github.com/zuzanavolfova/projekt2-superkviz",
+            "description": "JavaScript, GitHub",
+            "image":"/navigation/programovani.png"
+        },
+        {
+            "category": "JavaScript",
+            "name": "Coin hunter",
+            "link": "https://zuzanavolfova.github.io/projekt1-coin-hunter/",
+            "github":"https://github.com/zuzanavolfova/projekt1-coin-hunter",
+            "description": "JavaScript, GitHub",
+            "image":"/navigation/game.png"
+        },
+        {
+            "category": "JavaScript",
+            "name": "Recepty",
+            "link": "https://zuzanavolfova.github.io/projekt3-recepty/",
+            "github":"https://github.com/zuzanavolfova/projekt3-recepty",
+            "description": "JavaScript, GitHub",
+            "image":"/navigation/recepty.png"
+        }
     ]
 }
