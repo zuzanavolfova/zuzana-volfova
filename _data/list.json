@@ -15,7 +15,7 @@
             "name": "Tvoření pro motýlky",
             "link": "https://tvoreni-pro-motylky.netlify.app/",
             "github":"https://github.com/zuzanavolfova/Zaverecny-projekt-koderka",
-            "description": "HTML, CSS, BEM, SASS, 11ty, GitHub",
+            "description": "HTML, CSS, BEM, SASS, 11ty, GitHub, figma, kompletní návrh",
             "image": "/navigation/motyli.png"
         },
         {
@@ -23,7 +23,7 @@
             "name": "Zuzana Volfová",
             "link": "https://zuzana-volfova.netlify.app/",
             "github":"https://github.com/zuzanavolfova/zuzana-volfova",
-            "description": "HTML, CSS, BEM, SASS, 11ty, GitHub",
+            "description": "HTML, CSS, BEM, SASS, 11ty, GitHub, figma, kompletní návrh",
             "image":"/navigation/zuzana-volfova-mobile.png"
         }
     ],
