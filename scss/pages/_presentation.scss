@@ -20,19 +20,22 @@
            gap: 60px;
        }
     }
+    &__item {
+         @include mixins.tablet{
+            flex-basis: calc(100%/2 - 60px);
+            // background-color: #F5F5F5;
+        }
+        @include mixins.desktop{
+            flex-basis: calc(100%/4 - 60px);
+            // background-color: #F5F5F5;
+        }
+    }
     &__link {
         @include mixins.link;
         & img {
             width: 100%;
         }
-        @include mixins.tablet{
-            flex-basis: calc(100%/2 - 60px);
-            // background-color: #F5F5F5;
-        }
-        @include mixins.desktop{
-            flex-basis: calc(100%/3 - 60px);
-            // background-color: #F5F5F5;
-        }
+      
     }
   &__github {
     @include mixins.link;
