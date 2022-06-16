@@ -1,6 +1,21 @@
 @use '../abstracts/mixins';
 @use '../base/colors';
 
+.mobile {
+    text-align: center;
+    @include mixins.padding;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 2;
+    @include mixins.desktop {
+        display: none;
+    }
+    &__text {
+        margin: 0;
+        padding: 10px;
+    }
+}
+
 .ux-design__link {
     background-image: url(/images/navigation/ux-design.png);
    @include mixins.background-picture;
@@ -25,3 +40,4 @@
         transform: translateY(-100%);
     }
 }
+

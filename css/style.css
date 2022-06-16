@@ -23,15 +23,27 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+}
+.navigation__link {
+  text-decoration: none;
+  color: rgb(60, 60, 60);
+}
+@media screen and (min-width: 900px) {
   .navigation__link {
     border: 1px solid darkgrey;
     flex-basis: calc(33.3333333333% - 40px);
     height: 260px;
-    text-decoration: none;
-    color: rgb(60, 60, 60);
     overflow: hidden;
     position: relative;
   }
+}
+.navigation__image {
+  height: 100px;
+}
+.navigation__description {
+  font-size: 20px;
+}
+@media screen and (min-width: 900px) {
   .navigation__description {
     font-size: 26px;
     color: white;
@@ -188,6 +200,23 @@ body {
     grid-template-rows: auto auto auto;
     grid-template-areas: "logo   logo      logo         media" "menu   navigation navigation navigation" "footer footer    footer       footer";
   }
+}
+
+.mobile {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 2;
+}
+@media screen and (min-width: 900px) {
+  .mobile {
+    display: none;
+  }
+}
+.mobile__text {
+  margin: 0;
+  padding: 10px;
 }
 
 .ux-design__link {
