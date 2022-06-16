@@ -21,6 +21,7 @@
        }
     }
     &__item {
+        margin: 20px;
          @include mixins.tablet{
             flex-basis: calc(100%/2 - 60px);
             // background-color: #F5F5F5;
