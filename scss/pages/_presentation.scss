@@ -31,14 +31,14 @@
             flex-basis: calc(100%/4 - 60px);
             // background-color: #F5F5F5;
         }
-    }
-    &__link {
-        @include mixins.link;
         & img {
             width: 100%;
         }
-      
     }
+    &__link {
+        @include mixins.link;
+    }
+
   &__github {
     @include mixins.link;
     padding: 8px 12px;

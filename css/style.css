@@ -256,12 +256,12 @@ body {
     flex-basis: calc(25% - 60px);
   }
 }
+.presentation__item img {
+  width: 100%;
+}
 .presentation__link {
   text-decoration: none;
   color: rgb(60, 60, 60);
-}
-.presentation__link img {
-  width: 100%;
 }
 .presentation__github {
   text-decoration: none;
