@@ -72,6 +72,12 @@
             },
             {
                 "category": "vector",
+                "name": "Responzivní design",
+                "description": "Responzivní design",
+                "image":"responzive.png"
+            },
+            {
+                "category": "vector",
                 "description": "Stromeček",
                 "image":"Stromecek1.png"
             },
