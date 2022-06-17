@@ -1,44 +1,29 @@
 @use '../abstracts/mixins';
 @use '../base/colors';
 
-.mobile {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 2;
-    background-color: rgb(240, 240, 240);
-    margin-bottom: 10px;
-    @include mixins.desktop {
-        display: none;
-    }
-    &__text {
-        margin: 0;
-        padding: 10px;
-    }
-}
-
 .ux-design__link {
     background-image: url(/images/navigation/ux-design.png);
    @include mixins.background-picture;
-    
+   @include mixins.desktop {
     &:hover .ux-design__description {
         transform: translateY(-100%);
-    }
-}
+    }}}
 
 .coding__link {
     background-image: url(/images/navigation/programovani.png);
     @include mixins.background-picture;
+    @include mixins.desktop {
     &:hover .coding__description {
         transform: translateY(-100%);
     }
-}
+}}
 
 .graphic__link {
     background-image: url(/images/navigation/poukazka.jpg);
     @include mixins.background-picture;
+    @include mixins.desktop {
     &:hover .graphic__description {
         transform: translateY(-100%);
-    }
+    }}
 }
 
