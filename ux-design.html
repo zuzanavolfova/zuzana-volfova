@@ -2,3 +2,24 @@
 layout: layouts/main-template.njk
 title: UX design
 ---
+<div class="presentation">
+    <h2 class="presentation__title presentation__promotional">UX design</h2>
+
+    <section class="presentation__section">
+        {% for itemUX in list.uxDesign %}
+        <div class="presentation__item">
+            <a class="presentation__link" href="{{itemUX.link}}/">
+                <img src="/images{{itemUX.image}}">
+                <div class="presentation__description"> 
+                    <div>
+                        <h3>{{itemUX.name}}</h3>
+                        <p>{{itemUX.description}}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}   
+    </section>
+</div>
+
+<script src="/javaScript/fslightbox.js"></script>
