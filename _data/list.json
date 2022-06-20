@@ -106,6 +106,7 @@
             "category": "UXDesign",
             "name": "Tvoření pro motýlky",
             "link": "https://www.figma.com/file/lPqMSAqkLRTpklgPr40uZ5/Tvoreni-pro-deti?node-id=158%3A823",
+            "linkDescription": "Přejít na case study a prototyp",
             "description": "Figma, závěrečný projekt kurzu Koderka",
             "image":"/navigation/ux-creating.png"
         },
@@ -113,6 +114,7 @@
             "category": "UXDesign",
             "name": "Stromek přání",
             "link": "https://xd.adobe.com/view/657ea26e-5c27-4e08-9e93-4d1d38c9c00b-302d/",
+            "linkDescription": "Přejít na prototyp",
             "description": "AdobeXD, 2. studijní projekt kurzu Coursera",
             "image":"/navigation/ux-tree.png"
         },
@@ -120,6 +122,7 @@
             "category": "UXDesign",
             "name": "Gallery project",
             "link": "https://www.figma.com/file/BJTHvUzeW2G1qJzxzP78ZQ/Gallery-project1?node-id=433%3A842",
+            "linkDescription": "Přejít na case study a prototyp",
             "description": "Figma, 1. studijní projekt kurzu Coursera",
             "image":"/navigation/ux-gallery.png"
         }

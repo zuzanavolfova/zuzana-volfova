@@ -294,7 +294,17 @@ body {
   text-decoration: none;
   color: rgb(60, 60, 60);
 }
-.presentation__github {
+.presentation__descriptionUX {
+  background-color: #f4a666;
+  border-radius: 4px;
+  display: flex;
+  padding: 10px 20px;
+}
+.presentation__descriptionUX__link-text {
+  width: 100%;
+  text-align: center;
+}
+.presentation__externalLink {
   text-decoration: none;
   color: rgb(60, 60, 60);
   padding: 8px 12px;
