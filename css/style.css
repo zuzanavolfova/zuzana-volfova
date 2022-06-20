@@ -112,7 +112,7 @@ body {
 }
 
 .header__title {
-  color: #f4a666;
+  color: #B75D69;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 400;
@@ -158,7 +158,7 @@ body {
   justify-content: space-around;
   font-size: 16px;
   font-weight: 500;
-  background-color: rgb(90, 90, 90);
+  background-color: #B75D69;
 }
 @media screen and (min-width: 900px) {
   .menu__list {
@@ -196,12 +196,12 @@ body {
 }
 @media screen and (min-width: 900px) {
   .menu__item--active .menu__text {
-    border-bottom: 3px dotted #f4a666;
+    border-bottom: 3px dotted #B75D69;
   }
 }
 @media screen and (min-width: 900px) {
   .menu__text:hover {
-    border-bottom: 3px dotted #f4a666;
+    border-bottom: 3px dotted #B75D69;
   }
 }
 
@@ -260,7 +260,7 @@ body {
 }
 .presentation__title {
   display: inline-block;
-  border-bottom: 3px dotted #f4a666;
+  border-bottom: 3px dotted #B75D69;
 }
 @media screen and (min-width: 900px) {
   .presentation__title {
@@ -307,8 +307,8 @@ body {
   padding: 8px 12px;
   margin: 10px 0;
   color: white;
-  background-color: rgb(90, 90, 90);
-  border: 1px solid rgb(90, 90, 90);
+  background-color: #B75D69;
+  border: 1px solid #B75D69;
   border-radius: 6px;
 }
 .presentation__externalLink:hover {
@@ -318,7 +318,7 @@ body {
 }
 
 .descriptionUX__link {
-  background-color: rgb(90, 90, 90);
+  background-color: #B75D69;
   color: white;
   border-radius: 4px;
   display: flex;
