@@ -1,0 +1,21 @@
+@use '../abstracts/mixins';
+@use '../base/colors';
+
+.descriptionUX {
+
+    &__link {
+        background-color: colors.$color-link-background;
+        color: white;  
+        border-radius: 4px;
+        display: flex;
+        padding: 10px 20px;
+        @include mixins.desktop{
+        &__link-text { 
+            width: 100%;
+            text-align: center;
+        }
+
+    }
+}
+}
+

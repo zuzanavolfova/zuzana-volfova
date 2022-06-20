@@ -16,7 +16,7 @@
         justify-content: space-around;
         font-size: 16px;
         font-weight: 500;
-        background-color: colors.$color-primary;
+        background-color:colors.$color-link-background;;
         @include mixins.desktop {
             background-color:white;
             display: block;
@@ -28,7 +28,7 @@
         list-style: none;
         background-color: white;
         border-radius: 4px;
-        border: 1px solid colors.$color-primary;
+        // border: 1px solid colors.$color-primary;
         @include mixins.desktop {
             margin: 5px 0;
             border: none;
@@ -37,7 +37,7 @@
         }
         & a {
             @include mixins.link;
-            color:  colors.$color-primary;
+            color:  colors.$color-text;
             font-weight: 500;
             display: flex;
             padding: 10px;

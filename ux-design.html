@@ -7,10 +7,10 @@ title: UX design
 
     <section class="presentation__section">
         {% for itemUX in list.uxDesign %}
-        <div class="presentation__item">
+        <div class="presentation__item descriptionUX">
             <!-- <a class="presentation__link" href="{{itemUX.link}}/"> -->
                 <img src="/images{{itemUX.image}}">
-                <a class="presentation__link presentation__descriptionUX" href="{{itemUX.link}}/"><span class="presentation__descriptionUX__link-text" >{{itemUX.linkDescription}}</span></a>
+                <a class="presentation__externalLink descriptionUX__link" href="{{itemUX.link}}/"><span class="descriptionUX__link-text" >{{itemUX.linkDescription}}</span></a>
                 <div class="presentation__description"> 
                     <div>
                         <h3>{{itemUX.name}}</h3>

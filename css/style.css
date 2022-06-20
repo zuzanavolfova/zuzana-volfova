@@ -158,7 +158,7 @@ body {
   justify-content: space-around;
   font-size: 16px;
   font-weight: 500;
-  background-color: #f4a666;
+  background-color: rgb(90, 90, 90);
 }
 @media screen and (min-width: 900px) {
   .menu__list {
@@ -172,7 +172,6 @@ body {
   list-style: none;
   background-color: white;
   border-radius: 4px;
-  border: 1px solid #f4a666;
 }
 @media screen and (min-width: 900px) {
   .menu__item {
@@ -184,7 +183,7 @@ body {
 .menu__item a {
   text-decoration: none;
   color: rgb(60, 60, 60);
-  color: #f4a666;
+  color: rgb(60, 60, 60);
   font-weight: 500;
   display: flex;
   padding: 10px;
@@ -294,22 +293,32 @@ body {
   text-decoration: none;
   color: rgb(60, 60, 60);
 }
-.presentation__descriptionUX {
-  background-color: #f4a666;
-  border-radius: 4px;
-  display: flex;
-  padding: 10px 20px;
-}
-.presentation__descriptionUX__link-text {
-  width: 100%;
-  text-align: center;
-}
 .presentation__externalLink {
   text-decoration: none;
   color: rgb(60, 60, 60);
   padding: 8px 12px;
   margin: 10px 0;
-  border: 1px solid #f4a666;
-  background-color: #f4a666;
+  color: white;
+  background-color: rgb(90, 90, 90);
+  border: 1px solid rgb(90, 90, 90);
   border-radius: 6px;
+}
+.presentation__externalLink:hover {
+  color: rgb(60, 60, 60);
+  background-color: white;
+  font-weight: 500;
+}
+
+.descriptionUX__link {
+  background-color: rgb(90, 90, 90);
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  padding: 10px 20px;
+}
+@media screen and (min-width: 900px) {
+  .descriptionUX__link__link-text {
+    width: 100%;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
