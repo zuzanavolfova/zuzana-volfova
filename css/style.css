@@ -258,6 +258,10 @@ body {
     grid-area: navigation;
   }
 }
+.presentation__title {
+  display: inline-block;
+  border-bottom: 3px dotted #f4a666;
+}
 @media screen and (min-width: 900px) {
   .presentation__title {
     color: rgb(60, 60, 60);
@@ -273,11 +277,15 @@ body {
   }
 }
 .presentation__item {
-  margin: 20px;
+  margin: 40px 20px;
+  box-shadow: 1px 1px 5px rgb(223, 223, 223);
+  padding: 20px;
 }
 @media screen and (min-width: 640px) {
   .presentation__item {
     margin: 0;
+    padding: 0;
+    box-shadow: none;
     flex-basis: calc(50% - 60px);
   }
 }
