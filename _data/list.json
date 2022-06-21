@@ -83,13 +83,18 @@
             },
             {
                 "category": "vector",
+                "description": "děti",
+                "image":"children-circle.png"
+            },
+            {
+                "category": "vector",
                 "description": "Ikony",
                 "image":"ikony.jpg"
             },
             {
                 "category": "vector",
-                "description": "děti",
-                "image":"children-circle.png"
+                "description": "Ikony",
+                "image":"icons.png"
             }
     ],
     "graphicPromotional":
