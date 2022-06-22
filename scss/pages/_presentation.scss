@@ -24,12 +24,10 @@
     }
     &__item {
         margin: 40px 20px;
-        box-shadow: 1px 1px 5px rgb(223, 223, 223);
         padding: 20px;
         @include mixins.tablet{
             margin: 0;
             padding: 0;
-            box-shadow:none ;
             flex-basis: calc(100%/2 - 60px);
             // background-color: #F5F5F5;
         }

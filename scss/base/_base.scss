@@ -15,3 +15,10 @@ body {
     margin: 0;
     font-family: typography.$font-primary;
 }
+
+.box-shadow {
+    box-shadow: 1px 1px 5px rgb(223, 223, 223);
+    @include mixins.tablet{
+        box-shadow:none ;
+    }
+}
