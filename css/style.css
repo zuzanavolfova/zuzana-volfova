@@ -322,7 +322,7 @@ body {
   margin: 10px 0;
   color: white;
   background-color: #B75D69;
-  border: 1px solid #B75D69;
+  border: 2px solid #B75D69;
   border-radius: 6px;
 }
 .presentation__externalLink:hover {
