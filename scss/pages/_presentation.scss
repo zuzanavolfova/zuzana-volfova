@@ -23,12 +23,14 @@
        }
     }
     &__item {
-        margin: 40px 20px;
+        margin:20px;
         padding: 20px;
+        display: flex;
         @include mixins.tablet{
             margin: 0;
             padding: 0;
             flex-basis: calc(100%/2 - 60px);
+            height:fit-content;
             // background-color: #F5F5F5;
         }
         @include mixins.desktop{
@@ -42,7 +44,6 @@
     &__link {
         @include mixins.link;
     }
-    
 
   &__externalLink {
     @include mixins.link;
