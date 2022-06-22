@@ -25,7 +25,6 @@
     &__item {
         margin:20px;
         padding: 20px;
-        display: flex;
         @include mixins.tablet{
             margin: 0;
             padding: 0;

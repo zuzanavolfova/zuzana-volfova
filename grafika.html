@@ -7,14 +7,14 @@ title: Grafika
 
     <section class="presentation__section">
         {% for itemPromotional in list.graphicPromotional %}
-        <a data-fslightbox="promotional" class="presentation__item" href="/images/graphic/large/{{itemPromotional.image}}"><img class="presentation__image-small" src="/images/graphic/small/{{itemPromotional.image}}" alt="{{itemPromotional.description}}"></a>
+        <a data-fslightbox="promotional" class="presentation__item flex" href="/images/graphic/large/{{itemPromotional.image}}"><img class="presentation__image-small" src="/images/graphic/small/{{itemPromotional.image}}" alt="{{itemPromotional.description}}"></a>
         {% endfor %}  
     </section>
 
     <h2 class="presentation__title presentation__vector">Vektorová grafika</h2>
     <section class="presentation__section">
         {% for itemVector in list.graphicVector %}
-        <a data-fslightbox="vector" class="presentation__item" href="/images/graphic/large/{{itemVector.image}}"><img class="presentation__image-small" src="/images/graphic/small/{{itemVector.image}}" alt="{{itemVector.description}}"></a>
+        <a data-fslightbox="vector" class="presentation__item flex" href="/images/graphic/large/{{itemVector.image}}"><img class="presentation__image-small" src="/images/graphic/small/{{itemVector.image}}" alt="{{itemVector.description}}"></a>
         {% endfor %}  
     </section>
 </div>
