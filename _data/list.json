@@ -95,6 +95,11 @@
                 "category": "vector",
                 "description": "Ikony",
                 "image":"icons.png"
+            },
+            {
+                "category": "vector",
+                "description": "Ikony",
+                "image":"icons-light.png"
             }
     ],
     "graphicPromotional":
